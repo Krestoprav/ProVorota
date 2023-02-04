@@ -30,17 +30,17 @@ $width-site: 1140px;
         padding-top: 80px;
         padding-bottom: 33px;
     }
+    &-content_paragraph{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
 }
 
-.footer-content_paragraph{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .footer-content_li {
     margin-top: 16px;
