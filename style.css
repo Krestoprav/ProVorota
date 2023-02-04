@@ -34,11 +34,9 @@
   order: 0;
   flex-grow: 0;
 }
-
 .footer-content_li {
   margin-top: 16px;
 }
-
 .footer-content_link {
   text-decoration: none;
   font-weight: 400;
@@ -48,32 +46,24 @@
   order: 1;
   flex-grow: 0;
 }
-
-.footer-content_catalog {
+.footer-contentatalog {
   min-width: 300px;
 }
-
-.footer-content_about {
+.footer-contentabout {
   min-width: 204px;
 }
-
-.footer-content_contacts {
+.footer-contentcontacts {
   min-width: 183px;
 }
-
-.footer-content_form {
+.footer-contentform {
   min-width: 261px;
 }
-
-.footer-content_list {
+.footer-contentlist {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
-
-.footer-content_catalog,
-.footer-content_about,
-.footer-content_contacts {
+.footer-contentcatalog, .footer-contentabout, .footer-content_contacts {
   margin-right: 64px;
 }
 

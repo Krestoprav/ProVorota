@@ -23,7 +23,6 @@ $width-site: 1140px;
 .footer{
     width: auto;
     background: #959594;
-
     &-content{
         display: flex;
         justify-content: space-between;
@@ -38,51 +37,45 @@ $width-site: 1140px;
             order: 0;
             flex-grow: 0;
         }
+        &_li {
+            margin-top: 16px;
+        }
+        &_link{
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+        &atalog{
+            min-width: 300px;
+        }
+        &about{
+            min-width: 204px;
+        }
+        
+        &contacts{
+            min-width: 183px;
+        }
+        
+        &form{
+            min-width: 261px;
+        }
+        
+        &list{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &catalog,
+        &about,
+        &_contacts{
+            margin-right: 64px;
+        }
     }
-}
-
-
-.footer-content_li {
-    margin-top: 16px;
-}
-
-.footer-content_link{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-
-.footer-content_catalog{
-    min-width: 300px;
-}
-
-.footer-content_about{
-    min-width: 204px;
-}
-
-.footer-content_contacts{
-    min-width: 183px;
-}
-
-.footer-content_form{
-    min-width: 261px;
-}
-
-.footer-content_list{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-content_catalog,
-.footer-content_about,
-.footer-content_contacts{
-    margin-right: 64px;
 }
 
 .form_name,
