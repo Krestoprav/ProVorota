@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Tektur";
+  src: url(./Tektur/Tektur-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tektur";
+  font-style: normal;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*Footer*/
+.footer {
+  width: auto;
+  background: #959594;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 33px;
+}
+
+.footer-content_paragraph {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-content_li {
+  margin-top: 16px;
+}
+
+.footer-content_link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-content_catalog {
+  min-width: 300px;
+}
+
+.footer-content_about {
+  min-width: 204px;
+}
+
+.footer-content_contacts {
+  min-width: 183px;
+}
+
+.footer-content_form {
+  min-width: 261px;
+}
+
+.footer-content_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content_catalog,
+.footer-content_about,
+.footer-content_contacts {
+  margin-right: 64px;
+}
+
+.form_name,
+.form_tel {
+  width: 261px;
+  height: 40px;
+  padding-left: 30px;
+  gap: 4px;
+  width: 261px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.25);
+  order: 0;
+  flex-grow: 0;
+}
+
+.form_name {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  background-image: url(./img/men.svg);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  outline: none;
+}
+
+.form_tel {
+  margin-bottom: 24px;
+  background-image: url(./img/tel.svg);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  outline: none;
+}
+
+.button_submit {
+  width: 140px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #A1A1A1;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border: none;
+  padding: 10px;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
