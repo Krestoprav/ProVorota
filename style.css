@@ -63,11 +63,10 @@
   display: flex;
   flex-direction: column;
 }
-.footer-content_catalog, 
-.footer-content_about, 
-.footer-content_contacts {
+.footer-content_catalog, .footer-content_about, .footer-content_contacts {
   margin-right: 64px;
 }
+
 .form_name,
 .form_tel {
   width: 261px;
