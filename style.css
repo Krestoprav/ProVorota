@@ -131,4 +131,15 @@
   background-position: 114px;
   outline: none;
   border-radius: 3px;
+}
+
+.form_privacy {
+  margin-top: 8px;
+  max-width: 261px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
