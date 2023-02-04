@@ -19,7 +19,6 @@
   width: auto;
   background: #959594;
 }
-
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -138,8 +137,4 @@
   border: none;
   padding: 10px;
   gap: 10px;
-}
-
-.button_xxx {
-  width: 140px;
 }/*# sourceMappingURL=style.css.map */

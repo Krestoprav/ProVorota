@@ -23,13 +23,13 @@ $width-site: 1140px;
 .footer{
     width: auto;
     background: #959594;
-}
 
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-    padding-bottom: 33px;
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 33px;
+    }
 }
 
 .footer-content_paragraph{
@@ -144,9 +144,4 @@ $width-site: 1140px;
     border: none;
     padding: 10px;
     gap: 10px;
-}
-
-
-.button_xxx{
-    width: 140px;
 }
