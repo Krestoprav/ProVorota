@@ -22,7 +22,7 @@ $width-site: 1140px;
 
 .footer{
     width: auto;
-    background: #959594;
+    background: #515151;
     &-content{
         display: flex;
         justify-content: space-between;
@@ -137,6 +137,7 @@ $width-site: 1140px;
     gap: 10px;
     background-image: url(./img/arrow.svg);
     background-repeat: no-repeat;
-    background-position: 15px; 
+    background-position: 114px; 
     outline: none;
+    border-radius: 3px;
 }
