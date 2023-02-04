@@ -34,6 +34,11 @@
   order: 0;
   flex-grow: 0;
 }
+.footer-content_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
 .footer-content_li {
   margin-top: 16px;
 }
@@ -57,11 +62,6 @@
 }
 .footer-content_form {
   min-width: 261px;
-}
-.footer-content_list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
 }
 .footer-content_catalog, .footer-content_about, .footer-content_contacts {
   margin-right: 64px;

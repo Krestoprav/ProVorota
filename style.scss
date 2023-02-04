@@ -37,6 +37,11 @@ $width-site: 1140px;
             order: 0;
             flex-grow: 0;
         }
+        &_list{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
         &_li {
             margin-top: 16px;
         }
@@ -63,13 +68,6 @@ $width-site: 1140px;
         &_form{
             min-width: 261px;
         }
-        
-        &_list{
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-        }
-        
         &_catalog,
         &_about,
         &_contacts{
