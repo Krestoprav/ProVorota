@@ -49,29 +49,29 @@ $width-site: 1140px;
             order: 1;
             flex-grow: 0;
         }
-        &atalog{
+        &_catalog{
             min-width: 300px;
         }
-        &about{
+        &_about{
             min-width: 204px;
         }
         
-        &contacts{
+        &_contacts{
             min-width: 183px;
         }
         
-        &form{
+        &_form{
             min-width: 261px;
         }
         
-        &list{
+        &_list{
             list-style: none;
             display: flex;
             flex-direction: column;
         }
         
-        &catalog,
-        &about,
+        &_catalog,
+        &_about,
         &_contacts{
             margin-right: 64px;
         }

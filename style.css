@@ -46,24 +46,26 @@
   order: 1;
   flex-grow: 0;
 }
-.footer-contentatalog {
+.footer-content_catalog {
   min-width: 300px;
 }
-.footer-contentabout {
+.footer-content_about {
   min-width: 204px;
 }
-.footer-contentcontacts {
+.footer-content_contacts {
   min-width: 183px;
 }
-.footer-contentform {
+.footer-content_form {
   min-width: 261px;
 }
-.footer-contentlist {
+.footer-content_list {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
-.footer-contentcatalog, .footer-contentabout, .footer-content_contacts {
+.footer-content_catalog, 
+.footer-content_about, 
+.footer-content_contacts {
   margin-right: 64px;
 }
 
