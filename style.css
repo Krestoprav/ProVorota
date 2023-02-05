@@ -142,4 +142,14 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+@media (max-width: 428px) {
+  .container {
+    max-width: 396px;
+    margin: 0 auto;
+  }
+  .footer-content {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
