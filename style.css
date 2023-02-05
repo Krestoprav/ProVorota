@@ -149,7 +149,7 @@
 
 @media (max-width: 390px) {
   .container {
-    width: 396px;
+    width: 358px;
   }
   .footer-content {
     flex-wrap: wrap;
@@ -178,7 +178,7 @@
     height: 52px;
     background: #707070;
     border-radius: 5px;
-    background-image: url(./img/arrowUp.svg);
+    background-image: url(./img/arrowDown.svg);
     background-repeat: no-repeat;
     background-position: 120px;
     outline: none;
@@ -200,7 +200,7 @@
     width: 50%;
   }
   .footer-content_list:hover .li_header {
-    background-image: url(./img/arrowDown.svg);
+    background-image: url(./img/arrowUp.svg);
   }
   .footer-content_list:hover li {
     display: block;

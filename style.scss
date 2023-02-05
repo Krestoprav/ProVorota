@@ -162,8 +162,7 @@ $width-site-adaptiv: 390px;
 
 @media (max-width: $width-site-adaptiv) {
     .container{
-        width: $width-site-adaptiv-32px;
-
+        width: ($width-site-adaptiv)-16*2;
     }
     .footer-content{
         flex-wrap: wrap;
