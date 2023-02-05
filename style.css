@@ -25,7 +25,10 @@
   padding-top: 80px;
   padding-bottom: 33px;
 }
-.footer-content_paragraph {
+.footer-content_list, .footer-content_paragraph, .footer-content_paragraph_cont, .footer-content_header {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -33,11 +36,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-.footer-content_list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+  text-decoration: none;
 }
 .footer-content_li {
   margin-top: 16px;
@@ -52,19 +51,23 @@
   flex-grow: 0;
 }
 .footer-content_catalog {
-  min-width: 300px;
+  width: 300px;
 }
 .footer-content_about {
-  min-width: 204px;
+  width: 204px;
 }
 .footer-content_contacts {
-  min-width: 183px;
+  width: 183px;
 }
 .footer-content_form {
-  min-width: 261px;
+  width: 261px;
 }
 .footer-content_catalog, .footer-content_about, .footer-content_contacts {
   margin-right: 64px;
+}
+
+.contacts_li {
+  margin-top: 16px;
 }
 
 .form_name,
@@ -146,10 +149,60 @@
 
 @media (max-width: 428px) {
   .container {
-    max-width: 396px;
-    margin: 0 auto;
+    width: 396;
   }
   .footer-content {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .footer-content_catalog,
+.footer-content_about {
+    width: 48%;
+    margin: 0;
+  }
+  .footer-content_contacts,
+.footer-content_form {
+    width: 100%;
+    margin: 0;
+  }
+  .footer-content_li {
+    display: none;
+  }
+  .footer-content_catalog,
+.footer-content_about,
+.footer-content_contacts {
+    margin-bottom: 24px;
+  }
+  .li_header {
+    width: 150px;
+    height: 52px;
+    background: #707070;
+    border-radius: 5px;
+    background-image: url(./img/arrowUp.svg);
+    background-repeat: no-repeat;
+    background-position: 120px;
+    outline: none;
+  }
+  .footer-content_header {
+    padding: 16px 69px 16px 7px;
+  }
+  .footer-content_paragraph_cont {
+    display: none;
+  }
+  .footer-content_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .contacts_left,
+.contacts_right {
+    width: 50%;
+  }
+  .footer-content_list:hover .li_header {
+    background-image: url(./img/arrowDown.svg);
+  }
+  .footer-content_list:hover li {
     display: block;
   }
 }/*# sourceMappingURL=style.css.map */
