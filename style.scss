@@ -1,5 +1,5 @@
 $width-site: 1140px;
-$width-site-adaptiv: 390px;
+$width-site-adaptiv: 428px;
 
 @font-face {
     font-family: 'Tektur';
@@ -160,6 +160,16 @@ $width-site-adaptiv: 390px;
     flex-grow: 0;
 }
 
+.contacts_left div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts_left div div{
+    margin-right: 16px;
+} 
+
+
 @media (max-width: $width-site-adaptiv) {
     .container{
         width: ($width-site-adaptiv)-16*2;
@@ -170,7 +180,7 @@ $width-site-adaptiv: 390px;
     }
     .footer-content_catalog,
     .footer-content_about{
-        width: 48%;
+        width: 50%;
         margin: 0;
     }
     .footer-content_contacts,
@@ -226,6 +236,7 @@ $width-site-adaptiv: 390px;
 
     .contacts_left{
         order: 2;
+        padding-left: 0;
     }
 
     .footer-content_list:hover .li_header{
@@ -236,10 +247,4 @@ $width-site-adaptiv: 390px;
         display: block;
         
     }
-    
-    .contacts_left div{
-        display: flex;
-        justify-content: space-between;
-    }
-
 }   

@@ -147,9 +147,18 @@
   flex-grow: 0;
 }
 
-@media (max-width: 390px) {
+.contacts_left div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contacts_left div div {
+  margin-right: 16px;
+}
+
+@media (max-width: 428px) {
   .container {
-    width: 358px;
+    width: 396px;
   }
   .footer-content {
     flex-wrap: wrap;
@@ -157,7 +166,7 @@
   }
   .footer-content_catalog,
 .footer-content_about {
-    width: 48%;
+    width: 50%;
     margin: 0;
   }
   .footer-content_contacts,
@@ -204,15 +213,12 @@
   }
   .contacts_left {
     order: 2;
+    padding-left: 0;
   }
   .footer-content_list:hover .li_header {
     background-image: url(./img/arrowUp.svg);
   }
   .footer-content_list:hover li {
     display: block;
-  }
-  .contacts_left div {
-    display: flex;
-    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
