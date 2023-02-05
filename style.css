@@ -199,10 +199,20 @@
 .contacts_right {
     width: 50%;
   }
+  .contacts_right {
+    order: 1;
+  }
+  .contacts_left {
+    order: 2;
+  }
   .footer-content_list:hover .li_header {
     background-image: url(./img/arrowUp.svg);
   }
   .footer-content_list:hover li {
     display: block;
+  }
+  .contacts_left div {
+    display: flex;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */

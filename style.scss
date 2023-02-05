@@ -212,11 +212,20 @@ $width-site-adaptiv: 390px;
         flex-wrap: wrap;
         justify-content: space-between;
         height: 100%;
+
     }
 
     .contacts_left,
     .contacts_right{
         width: 50%;
+    }
+
+    .contacts_right{
+        order: 1;
+    }
+
+    .contacts_left{
+        order: 2;
     }
 
     .footer-content_list:hover .li_header{
@@ -227,4 +236,10 @@ $width-site-adaptiv: 390px;
         display: block;
         
     }
-}
+    
+    .contacts_left div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}   
