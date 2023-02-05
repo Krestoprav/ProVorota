@@ -1,4 +1,5 @@
 $width-site: 1140px;
+$width-site-adaptiv: 390px;
 
 @font-face {
     font-family: 'Tektur';
@@ -159,9 +160,9 @@ $width-site: 1140px;
     flex-grow: 0;
 }
 
-@media (max-width: 428px) {
+@media (max-width: $width-site-adaptiv) {
     .container{
-        width: 396px;
+        width: $width-site-adaptiv-32px;
 
     }
     .footer-content{
@@ -194,7 +195,7 @@ $width-site: 1140px;
         height: 52px;
         background: #707070;
         border-radius: 5px;
-        background-image: url(./img/arrowUp.svg);
+        background-image: url(./img/arrowDown.svg);
         background-repeat: no-repeat;
         background-position: 120px; 
         outline: none;
@@ -220,7 +221,7 @@ $width-site: 1140px;
     }
 
     .footer-content_list:hover .li_header{
-        background-image: url(./img/arrowDown.svg);
+        background-image: url(./img/arrowUp.svg);
     }
 
     .footer-content_list:hover li{
