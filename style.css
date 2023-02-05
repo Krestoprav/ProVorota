@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 80px;
-  padding-bottom: 33px;
+  padding-bottom: 80px;
 }
 .footer-content_list, .footer-content_paragraph, .footer-content_paragraph_cont, .footer-content_header {
   list-style: none;
