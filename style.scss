@@ -262,8 +262,9 @@ $width-site-adaptiv: 390px;
         &_about,
         &_contacts,
         &_form{
-            width: 50%;
+            width: 48%;
             margin: 0;
+            padding-left: 16px;
             margin-bottom: 30px;
         }
     }
@@ -280,6 +281,7 @@ $width-site-adaptiv: 390px;
         &_form{
             width: 60%;
             margin: 0;
+            padding-left: 16px;
             margin-bottom: 30px;
         }
     }

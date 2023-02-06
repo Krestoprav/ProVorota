@@ -234,8 +234,9 @@
     align-items: flex-start;
   }
   .footer-content_catalog, .footer-content_about, .footer-content_contacts, .footer-content_form {
-    width: 50%;
+    width: 48%;
     margin: 0;
+    padding-left: 16px;
     margin-bottom: 30px;
   }
 }
@@ -248,6 +249,7 @@
   .footer-content_catalog, .footer-content_about, .footer-content_contacts, .footer-content_form {
     width: 60%;
     margin: 0;
+    padding-left: 16px;
     margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
