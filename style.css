@@ -226,4 +226,15 @@
   .footer-content_list:hover li {
     display: block;
   }
+}
+@media (max-width: 1210px) and (min-width: 390px) {
+  .footer-content {
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: flex-start;
+  }
+  .footer-content_catalog, .footer-content_about, .footer-content_contacts, .footer-content_form {
+    width: 50%;
+    margin-bottom: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */

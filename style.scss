@@ -253,3 +253,17 @@ $width-site-adaptiv: 390px;
     }
 }
 
+@media (max-width: 1210px) and (min-width: $width-site-adaptiv) {
+    .footer-content{
+        flex-wrap: wrap;
+        height: 100%;
+        align-items: flex-start;
+        &_catalog,
+        &_about,
+        &_contacts,
+        &_form{
+            width: 50%;
+            margin-bottom: 80px;
+        }
+    }
+}
