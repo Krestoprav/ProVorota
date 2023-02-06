@@ -161,9 +161,9 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 390px) {
   .container {
-    width: 396px;
+    width: 358px;
   }
   .footer-content {
     flex-wrap: wrap;
