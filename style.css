@@ -161,6 +161,12 @@
   color: #FFFFFF;
 }
 
+.footer-content_link:hover,
+.footer-content_header:hover a {
+  -webkit-text-decoration: underline #0B5EDB solid 2px;
+          text-decoration: underline #0B5EDB solid 2px;
+}
+
 @media (max-width: 390px) {
   .container {
     width: 358px;

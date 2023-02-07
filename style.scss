@@ -174,6 +174,11 @@ $width-site-adaptiv: 390px;
     color: #FFFFFF;
 } 
 
+.footer-content_link:hover,
+.footer-content_header:hover a {
+    text-decoration: underline #0B5EDB solid 2px;
+}
+
 @media (max-width: $width-site-adaptiv) {
     .container{
         width: ($width-site-adaptiv)-16*2;
@@ -226,7 +231,6 @@ $width-site-adaptiv: 390px;
         flex-wrap: wrap;
         justify-content: space-between;
         height: 100%;
-
     }
 
     .contacts_left,
@@ -249,7 +253,6 @@ $width-site-adaptiv: 390px;
 
     .footer-content_list:hover li{
         display: block;
-        
     }
 }
 
