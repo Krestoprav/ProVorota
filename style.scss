@@ -1,5 +1,6 @@
 $width-site: 1140px;
 $width-site-adaptiv: 390px;
+$width-site-tablet: 1024px;
 
 @font-face {
     font-family: 'Tektur';
@@ -256,7 +257,14 @@ $width-site-adaptiv: 390px;
     }
 }
 
-@media (max-width: 1210px) and (min-width: 700px) {
+@media (max-width: $width-site-tablet){
+    .container{
+        width: ($width-site-tablet)-16*2;
+    }
+    
+}
+
+@media (max-width: 1210px) and (min-width: $width-site-tablet) {
     .footer-content{
         flex-wrap: wrap;
         height: 100%;
