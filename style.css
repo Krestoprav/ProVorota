@@ -233,81 +233,32 @@
     display: block;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 390px) {
   .container {
     width: 992px;
   }
-  .footer-content_about ul li {
-    display: none;
+  .footer-content {
+    flex-wrap: wrap;
+    height: 100%;
   }
   .footer-content_catalog,
 .footer-content_about,
-.footer-content_contacts {
-    margin-bottom: 24px;
+.footer-content_contacts,
+.footer-content_form {
+    width: 25%;
+    margin: 0;
   }
-  .li_header {
-    width: 150px;
-    height: 52px;
-    background: #707070;
-    border-radius: 5px;
-    background-image: url(./img/arrowDown.svg);
-    background-repeat: no-repeat;
-    background-position: 120px;
-    outline: none;
-  }
-  .footer-content_header {
-    padding: 16px 69px 16px 7px;
-  }
-  .footer-content_paragraph_cont {
-    display: none;
+  .footer-content_about {
+    align-self: flex-start;
+    position: absolute;
+    right: 30%;
   }
   .footer-content_contacts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 100%;
+    align-self: flex-end;
+    position: absolute;
+    right: 30%;
   }
-  .contacts_left,
-.contacts_right {
-    width: 50%;
-  }
-  .contacts_right {
-    order: 1;
-  }
-  .contacts_left {
-    order: 2;
-    padding-left: 0;
-  }
-  .footer-content_list:hover .li_header {
-    background-image: url(./img/arrowUp.svg);
-  }
-  .footer-content_list:hover li {
-    display: block;
-  }
-}
-@media (max-width: 1210px) and (min-width: 1024px) {
-  .footer-content {
-    flex-wrap: wrap;
-    height: 100%;
-    align-items: flex-start;
-  }
-  .footer-content_catalog, .footer-content_about, .footer-content_contacts, .footer-content_form {
-    width: 48%;
-    margin: 0;
-    padding-left: 16px;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 700px) and (min-width: 390px) {
-  .footer-content {
-    flex-wrap: wrap;
-    height: 100%;
-    align-items: flex-start;
-  }
-  .footer-content_catalog, .footer-content_about, .footer-content_contacts, .footer-content_form {
-    width: 60%;
-    margin: 0;
-    padding-left: 16px;
-    margin-bottom: 30px;
+  .footer-content_about ul li {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
