@@ -219,7 +219,7 @@
     top: 300px;
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 879px) {
   .container {
     width: 358px;
   }
