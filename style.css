@@ -51,7 +51,7 @@
   flex-grow: 0;
 }
 .footer-content_catalog {
-  width: 300px;
+  width: 200px;
 }
 .footer-content_about {
   width: 204px;
@@ -72,7 +72,7 @@
 
 .form_name,
 .form_tel {
-  width: 261px;
+  width: 100%;
   height: 40px;
   padding-left: 30px;
   gap: 4px;
@@ -167,7 +167,59 @@
           text-decoration: underline #0B5EDB solid 2px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 1210px) and (min-width: 880px) {
+  .container {
+    width: 864px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .footer-content_catalog,
+  .footer-content_about,
+  .footer-content_contacts,
+  .footer-content_form {
+    width: 288px;
+    margin: 0;
+  }
+  .footer-content_about {
+    align-self: flex-start;
+    position: absolute;
+    left: 37%;
+  }
+  .footer-content_contacts {
+    align-self: flex-end;
+    position: absolute;
+    left: 37%;
+    top: 150px;
+  }
+  .footer-content_about ul li:not(:first-child) {
+    display: none;
+  }
+  .footer-content_about ul li:first-child {
+    width: 150px;
+    height: 52px;
+    background: #707070;
+    border-radius: 5px;
+    background-image: url(./img/arrowDown.svg);
+    background-repeat: no-repeat;
+    background-position: 120px;
+    outline: none;
+  }
+  .footer-content_about ul li:first-child div {
+    padding: 16px 69px 16px 7px;
+  }
+  .footer-content_about ul:hover .li_header {
+    background-image: url(./img/arrowUp.svg);
+  }
+  .footer-content_about ul:hover li {
+    display: block;
+  }
+  .footer-content_about:hover ~ .footer-content_contacts {
+    top: 300px;
+  }
+}
+@media (max-width: 880px) {
   .container {
     width: 358px;
   }
@@ -187,6 +239,9 @@
   }
   .footer-content_li {
     display: none;
+  }
+  .footer-content_catalog > ul > li:first-child > div {
+    content: cccc;
   }
   .footer-content_catalog,
   .footer-content_about,
@@ -231,34 +286,5 @@
   }
   .footer-content_list:hover li {
     display: block;
-  }
-}
-@media (max-width: 1024px) and (min-width: 390px) {
-  .container {
-    width: 992px;
-  }
-  .footer-content {
-    flex-wrap: wrap;
-    height: 100%;
-  }
-  .footer-content_catalog,
-  .footer-content_about,
-  .footer-content_contacts,
-  .footer-content_form {
-    width: 25%;
-    margin: 0;
-  }
-  .footer-content_about {
-    align-self: flex-start;
-    position: absolute;
-    right: 30%;
-  }
-  .footer-content_contacts {
-    align-self: flex-end;
-    position: absolute;
-    right: 30%;
-  }
-  .footer-content_about ul li {
-    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
