@@ -176,12 +176,12 @@
     height: 100%;
   }
   .footer-content_catalog,
-.footer-content_about {
+  .footer-content_about {
     width: 50%;
     margin: 0;
   }
   .footer-content_contacts,
-.footer-content_form {
+  .footer-content_form {
     width: 100%;
     margin: 0;
   }
@@ -189,8 +189,8 @@
     display: none;
   }
   .footer-content_catalog,
-.footer-content_about,
-.footer-content_contacts {
+  .footer-content_about,
+  .footer-content_contacts {
     margin-bottom: 24px;
   }
   .li_header {
@@ -216,7 +216,7 @@
     height: 100%;
   }
   .contacts_left,
-.contacts_right {
+  .contacts_right {
     width: 50%;
   }
   .contacts_right {
@@ -242,9 +242,9 @@
     height: 100%;
   }
   .footer-content_catalog,
-.footer-content_about,
-.footer-content_contacts,
-.footer-content_form {
+  .footer-content_about,
+  .footer-content_contacts,
+  .footer-content_form {
     width: 25%;
     margin: 0;
   }
