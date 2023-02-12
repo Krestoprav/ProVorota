@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Tektur";
   src: url(./Tektur/Tektur-Regular.ttf);
@@ -286,5 +287,11 @@
   }
   .footer-content_list:hover li {
     display: block;
+  }
+  .footer-content_catalog ul li:first-child span {
+    display: none;
+  }
+  .footer-content_catalog ul li:first-child :after {
+    content: "Каталог";
   }
 }/*# sourceMappingURL=style.css.map */
